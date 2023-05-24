@@ -1,0 +1,936 @@
+{
+    "metric": "f1_macro",
+    "best_config": {
+        "C": 124.06998422376643,
+        "kernel": "linear",
+        "gamma": 0.0008882238299844194
+    },
+    "best_score": 0.7287345261062775,
+    "test_score": 0.739155725768986,
+    "grid_tried": {
+        "/home/norhther/ray_results/train_model/train_model_b6ffb_00000_0_C=124.0700,gamma=0.0009,kernel=linear_2023-05-24_15-27-22": {
+            "C": 124.06998422376643,
+            "gamma": 0.0008882238299844194,
+            "kernel": "linear"
+        },
+        "/home/norhther/ray_results/train_model/train_model_b6ffb_00001_1_C=0.0030,gamma=0.0652,kernel=rbf_2023-05-24_15-27-41": {
+            "C": 0.002973771628015759,
+            "gamma": 0.06523832383628092,
+            "kernel": "rbf"
+        },
+        "/home/norhther/ray_results/train_model/train_model_b6ffb_00002_2_C=140.5651,gamma=0.0075,kernel=rbf_2023-05-24_15-27-42": {
+            "C": 140.56511347588489,
+            "gamma": 0.0075478075336238215,
+            "kernel": "rbf"
+        },
+        "/home/norhther/ray_results/train_model/train_model_b6ffb_00003_3_C=0.0133,gamma=0.0045,kernel=rbf_2023-05-24_15-27-43": {
+            "C": 0.013252009854704077,
+            "gamma": 0.004531145304973961,
+            "kernel": "rbf"
+        },
+        "/home/norhther/ray_results/train_model/train_model_b6ffb_00004_4_C=0.0818,gamma=0.0002,kernel=linear_2023-05-24_15-27-43": {
+            "C": 0.08177697210573996,
+            "gamma": 0.00017389826294557088,
+            "kernel": "linear"
+        },
+        "/home/norhther/ray_results/train_model/train_model_b6ffb_00005_5_C=0.2472,gamma=0.0084,kernel=linear_2023-05-24_15-27-44": {
+            "C": 0.24719364151648032,
+            "gamma": 0.008423039517708527,
+            "kernel": "linear"
+        },
+        "/home/norhther/ray_results/train_model/train_model_b6ffb_00006_6_C=64.0890,gamma=0.0002,kernel=rbf_2023-05-24_15-27-44": {
+            "C": 64.08895302176273,
+            "gamma": 0.00023341795332946312,
+            "kernel": "rbf"
+        },
+        "/home/norhther/ray_results/train_model/train_model_b6ffb_00007_7_C=0.0015,gamma=0.0323,kernel=linear_2023-05-24_15-27-45": {
+            "C": 0.0015085845164136981,
+            "gamma": 0.03233030670857118,
+            "kernel": "linear"
+        },
+        "/home/norhther/ray_results/train_model/train_model_b6ffb_00008_8_C=0.0068,gamma=0.0051,kernel=linear_2023-05-24_15-27-45": {
+            "C": 0.006767851939369928,
+            "gamma": 0.005136909077007549,
+            "kernel": "linear"
+        },
+        "/home/norhther/ray_results/train_model/train_model_b6ffb_00009_9_C=0.0075,gamma=0.0025,kernel=linear_2023-05-24_15-27-46": {
+            "C": 0.007450327808666284,
+            "gamma": 0.0024858788280020284,
+            "kernel": "linear"
+        },
+        "/home/norhther/ray_results/train_model/train_model_b6ffb_00010_10_C=0.0838,gamma=0.0005,kernel=linear_2023-05-24_15-27-46": {
+            "C": 0.08384936016139612,
+            "gamma": 0.0005156068509015,
+            "kernel": "linear"
+        },
+        "/home/norhther/ray_results/train_model/train_model_b6ffb_00011_11_C=0.0784,gamma=0.0005,kernel=rbf_2023-05-24_15-27-47": {
+            "C": 0.07841734341240203,
+            "gamma": 0.0004763218519933235,
+            "kernel": "rbf"
+        },
+        "/home/norhther/ray_results/train_model/train_model_b6ffb_00012_12_C=29.7373,gamma=0.0122,kernel=rbf_2023-05-24_15-27-47": {
+            "C": 29.737280935924336,
+            "gamma": 0.01216798712605262,
+            "kernel": "rbf"
+        },
+        "/home/norhther/ray_results/train_model/train_model_b6ffb_00013_13_C=0.0164,gamma=0.0014,kernel=rbf_2023-05-24_15-27-48": {
+            "C": 0.016380259391291577,
+            "gamma": 0.0013580655351430472,
+            "kernel": "rbf"
+        },
+        "/home/norhther/ray_results/train_model/train_model_b6ffb_00014_14_C=10.4100,gamma=0.0702,kernel=rbf_2023-05-24_15-27-49": {
+            "C": 10.409986035076365,
+            "gamma": 0.07015871859115541,
+            "kernel": "rbf"
+        },
+        "/home/norhther/ray_results/train_model/train_model_b6ffb_00015_15_C=6.2994,gamma=0.0005,kernel=rbf_2023-05-24_15-27-49": {
+            "C": 6.299445313370356,
+            "gamma": 0.0005190144740062481,
+            "kernel": "rbf"
+        },
+        "/home/norhther/ray_results/train_model/train_model_b6ffb_00016_16_C=0.0107,gamma=0.0107,kernel=linear_2023-05-24_15-27-50": {
+            "C": 0.010690854711178286,
+            "gamma": 0.01072442457984841,
+            "kernel": "linear"
+        },
+        "/home/norhther/ray_results/train_model/train_model_b6ffb_00017_17_C=45.2139,gamma=0.0005,kernel=rbf_2023-05-24_15-27-51": {
+            "C": 45.2138966815191,
+            "gamma": 0.0004744862334376896,
+            "kernel": "rbf"
+        },
+        "/home/norhther/ray_results/train_model/train_model_b6ffb_00018_18_C=514.4296,gamma=0.0009,kernel=linear_2023-05-24_15-27-51": {
+            "C": 514.4295644171165,
+            "gamma": 0.0009211219627588996,
+            "kernel": "linear"
+        },
+        "/home/norhther/ray_results/train_model/train_model_b6ffb_00019_19_C=0.5530,gamma=0.0033,kernel=linear_2023-05-24_15-28-55": {
+            "C": 0.5529816303742425,
+            "gamma": 0.00329335481676662,
+            "kernel": "linear"
+        }
+    },
+    "trial_dataframes": [
+        {
+            "mean_f1_score": [
+                0.7287345261062775
+            ],
+            "time_this_iter_s": [
+                16.999599933624268
+            ],
+            "done": [
+                false
+            ],
+            "training_iteration": [
+                1
+            ],
+            "trial_id": [
+                "b6ffb_00000"
+            ],
+            "date": [
+                "2023-05-24_15-27-41"
+            ],
+            "timestamp": [
+                1684934861
+            ],
+            "time_total_s": [
+                16.999599933624268
+            ],
+            "pid": [
+                59075
+            ],
+            "hostname": [
+                "norhther-Latitude-7490"
+            ],
+            "node_ip": [
+                "84.88.188.31"
+            ],
+            "time_since_restore": [
+                16.999599933624268
+            ],
+            "iterations_since_restore": [
+                1
+            ]
+        },
+        {
+            "mean_f1_score": [
+                0.4582631638216283
+            ],
+            "time_this_iter_s": [
+                0.5877385139465332
+            ],
+            "done": [
+                false
+            ],
+            "training_iteration": [
+                1
+            ],
+            "trial_id": [
+                "b6ffb_00001"
+            ],
+            "date": [
+                "2023-05-24_15-27-42"
+            ],
+            "timestamp": [
+                1684934862
+            ],
+            "time_total_s": [
+                0.5877385139465332
+            ],
+            "pid": [
+                59075
+            ],
+            "hostname": [
+                "norhther-Latitude-7490"
+            ],
+            "node_ip": [
+                "84.88.188.31"
+            ],
+            "time_since_restore": [
+                0.5877385139465332
+            ],
+            "iterations_since_restore": [
+                1
+            ]
+        },
+        {
+            "mean_f1_score": [
+                0.7153578659222457
+            ],
+            "time_this_iter_s": [
+                1.0286781787872314
+            ],
+            "done": [
+                false
+            ],
+            "training_iteration": [
+                1
+            ],
+            "trial_id": [
+                "b6ffb_00002"
+            ],
+            "date": [
+                "2023-05-24_15-27-43"
+            ],
+            "timestamp": [
+                1684934863
+            ],
+            "time_total_s": [
+                1.0286781787872314
+            ],
+            "pid": [
+                59075
+            ],
+            "hostname": [
+                "norhther-Latitude-7490"
+            ],
+            "node_ip": [
+                "84.88.188.31"
+            ],
+            "time_since_restore": [
+                1.0286781787872314
+            ],
+            "iterations_since_restore": [
+                1
+            ]
+        },
+        {
+            "mean_f1_score": [
+                0.4582631638216283
+            ],
+            "time_this_iter_s": [
+                0.5796620845794678
+            ],
+            "done": [
+                false
+            ],
+            "training_iteration": [
+                1
+            ],
+            "trial_id": [
+                "b6ffb_00003"
+            ],
+            "date": [
+                "2023-05-24_15-27-43"
+            ],
+            "timestamp": [
+                1684934863
+            ],
+            "time_total_s": [
+                0.5796620845794678
+            ],
+            "pid": [
+                59075
+            ],
+            "hostname": [
+                "norhther-Latitude-7490"
+            ],
+            "node_ip": [
+                "84.88.188.31"
+            ],
+            "time_since_restore": [
+                0.5796620845794678
+            ],
+            "iterations_since_restore": [
+                1
+            ]
+        },
+        {
+            "mean_f1_score": [
+                0.7226002362678979
+            ],
+            "time_this_iter_s": [
+                0.4380502700805664
+            ],
+            "done": [
+                false
+            ],
+            "training_iteration": [
+                1
+            ],
+            "trial_id": [
+                "b6ffb_00004"
+            ],
+            "date": [
+                "2023-05-24_15-27-44"
+            ],
+            "timestamp": [
+                1684934864
+            ],
+            "time_total_s": [
+                0.4380502700805664
+            ],
+            "pid": [
+                59075
+            ],
+            "hostname": [
+                "norhther-Latitude-7490"
+            ],
+            "node_ip": [
+                "84.88.188.31"
+            ],
+            "time_since_restore": [
+                0.4380502700805664
+            ],
+            "iterations_since_restore": [
+                1
+            ]
+        },
+        {
+            "mean_f1_score": [
+                0.7251487465983278
+            ],
+            "time_this_iter_s": [
+                0.4754500389099121
+            ],
+            "done": [
+                false
+            ],
+            "training_iteration": [
+                1
+            ],
+            "trial_id": [
+                "b6ffb_00005"
+            ],
+            "date": [
+                "2023-05-24_15-27-44"
+            ],
+            "timestamp": [
+                1684934864
+            ],
+            "time_total_s": [
+                0.4754500389099121
+            ],
+            "pid": [
+                59075
+            ],
+            "hostname": [
+                "norhther-Latitude-7490"
+            ],
+            "node_ip": [
+                "84.88.188.31"
+            ],
+            "time_since_restore": [
+                0.4754500389099121
+            ],
+            "iterations_since_restore": [
+                1
+            ]
+        },
+        {
+            "mean_f1_score": [
+                0.7157270968362939
+            ],
+            "time_this_iter_s": [
+                0.5843710899353027
+            ],
+            "done": [
+                false
+            ],
+            "training_iteration": [
+                1
+            ],
+            "trial_id": [
+                "b6ffb_00006"
+            ],
+            "date": [
+                "2023-05-24_15-27-45"
+            ],
+            "timestamp": [
+                1684934865
+            ],
+            "time_total_s": [
+                0.5843710899353027
+            ],
+            "pid": [
+                59075
+            ],
+            "hostname": [
+                "norhther-Latitude-7490"
+            ],
+            "node_ip": [
+                "84.88.188.31"
+            ],
+            "time_since_restore": [
+                0.5843710899353027
+            ],
+            "iterations_since_restore": [
+                1
+            ]
+        },
+        {
+            "mean_f1_score": [
+                0.4582631638216283
+            ],
+            "time_this_iter_s": [
+                0.4048655033111572
+            ],
+            "done": [
+                false
+            ],
+            "training_iteration": [
+                1
+            ],
+            "trial_id": [
+                "b6ffb_00007"
+            ],
+            "date": [
+                "2023-05-24_15-27-45"
+            ],
+            "timestamp": [
+                1684934865
+            ],
+            "time_total_s": [
+                0.4048655033111572
+            ],
+            "pid": [
+                59075
+            ],
+            "hostname": [
+                "norhther-Latitude-7490"
+            ],
+            "node_ip": [
+                "84.88.188.31"
+            ],
+            "time_since_restore": [
+                0.4048655033111572
+            ],
+            "iterations_since_restore": [
+                1
+            ]
+        },
+        {
+            "mean_f1_score": [
+                0.677005056807992
+            ],
+            "time_this_iter_s": [
+                0.4064302444458008
+            ],
+            "done": [
+                false
+            ],
+            "training_iteration": [
+                1
+            ],
+            "trial_id": [
+                "b6ffb_00008"
+            ],
+            "date": [
+                "2023-05-24_15-27-46"
+            ],
+            "timestamp": [
+                1684934866
+            ],
+            "time_total_s": [
+                0.4064302444458008
+            ],
+            "pid": [
+                59075
+            ],
+            "hostname": [
+                "norhther-Latitude-7490"
+            ],
+            "node_ip": [
+                "84.88.188.31"
+            ],
+            "time_since_restore": [
+                0.4064302444458008
+            ],
+            "iterations_since_restore": [
+                1
+            ]
+        },
+        {
+            "mean_f1_score": [
+                0.6831024559629217
+            ],
+            "time_this_iter_s": [
+                0.4025239944458008
+            ],
+            "done": [
+                false
+            ],
+            "training_iteration": [
+                1
+            ],
+            "trial_id": [
+                "b6ffb_00009"
+            ],
+            "date": [
+                "2023-05-24_15-27-46"
+            ],
+            "timestamp": [
+                1684934866
+            ],
+            "time_total_s": [
+                0.4025239944458008
+            ],
+            "pid": [
+                59075
+            ],
+            "hostname": [
+                "norhther-Latitude-7490"
+            ],
+            "node_ip": [
+                "84.88.188.31"
+            ],
+            "time_since_restore": [
+                0.4025239944458008
+            ],
+            "iterations_since_restore": [
+                1
+            ]
+        },
+        {
+            "mean_f1_score": [
+                0.7217121450195357
+            ],
+            "time_this_iter_s": [
+                0.4985697269439697
+            ],
+            "done": [
+                false
+            ],
+            "training_iteration": [
+                1
+            ],
+            "trial_id": [
+                "b6ffb_00010"
+            ],
+            "date": [
+                "2023-05-24_15-27-47"
+            ],
+            "timestamp": [
+                1684934867
+            ],
+            "time_total_s": [
+                0.4985697269439697
+            ],
+            "pid": [
+                59075
+            ],
+            "hostname": [
+                "norhther-Latitude-7490"
+            ],
+            "node_ip": [
+                "84.88.188.31"
+            ],
+            "time_since_restore": [
+                0.4985697269439697
+            ],
+            "iterations_since_restore": [
+                1
+            ]
+        },
+        {
+            "mean_f1_score": [
+                0.4582631638216283
+            ],
+            "time_this_iter_s": [
+                0.5977542400360107
+            ],
+            "done": [
+                false
+            ],
+            "training_iteration": [
+                1
+            ],
+            "trial_id": [
+                "b6ffb_00011"
+            ],
+            "date": [
+                "2023-05-24_15-27-47"
+            ],
+            "timestamp": [
+                1684934867
+            ],
+            "time_total_s": [
+                0.5977542400360107
+            ],
+            "pid": [
+                59075
+            ],
+            "hostname": [
+                "norhther-Latitude-7490"
+            ],
+            "node_ip": [
+                "84.88.188.31"
+            ],
+            "time_since_restore": [
+                0.5977542400360107
+            ],
+            "iterations_since_restore": [
+                1
+            ]
+        },
+        {
+            "mean_f1_score": [
+                0.716686126343798
+            ],
+            "time_this_iter_s": [
+                0.7608640193939209
+            ],
+            "done": [
+                false
+            ],
+            "training_iteration": [
+                1
+            ],
+            "trial_id": [
+                "b6ffb_00012"
+            ],
+            "date": [
+                "2023-05-24_15-27-48"
+            ],
+            "timestamp": [
+                1684934868
+            ],
+            "time_total_s": [
+                0.7608640193939209
+            ],
+            "pid": [
+                59075
+            ],
+            "hostname": [
+                "norhther-Latitude-7490"
+            ],
+            "node_ip": [
+                "84.88.188.31"
+            ],
+            "time_since_restore": [
+                0.7608640193939209
+            ],
+            "iterations_since_restore": [
+                1
+            ]
+        },
+        {
+            "mean_f1_score": [
+                0.4582631638216283
+            ],
+            "time_this_iter_s": [
+                0.5737690925598145
+            ],
+            "done": [
+                false
+            ],
+            "training_iteration": [
+                1
+            ],
+            "trial_id": [
+                "b6ffb_00013"
+            ],
+            "date": [
+                "2023-05-24_15-27-49"
+            ],
+            "timestamp": [
+                1684934869
+            ],
+            "time_total_s": [
+                0.5737690925598145
+            ],
+            "pid": [
+                59075
+            ],
+            "hostname": [
+                "norhther-Latitude-7490"
+            ],
+            "node_ip": [
+                "84.88.188.31"
+            ],
+            "time_since_restore": [
+                0.5737690925598145
+            ],
+            "iterations_since_restore": [
+                1
+            ]
+        },
+        {
+            "mean_f1_score": [
+                0.7271768474506872
+            ],
+            "time_this_iter_s": [
+                0.8309140205383301
+            ],
+            "done": [
+                false
+            ],
+            "training_iteration": [
+                1
+            ],
+            "trial_id": [
+                "b6ffb_00014"
+            ],
+            "date": [
+                "2023-05-24_15-27-49"
+            ],
+            "timestamp": [
+                1684934869
+            ],
+            "time_total_s": [
+                0.8309140205383301
+            ],
+            "pid": [
+                59075
+            ],
+            "hostname": [
+                "norhther-Latitude-7490"
+            ],
+            "node_ip": [
+                "84.88.188.31"
+            ],
+            "time_since_restore": [
+                0.8309140205383301
+            ],
+            "iterations_since_restore": [
+                1
+            ]
+        },
+        {
+            "mean_f1_score": [
+                0.6734799618604794
+            ],
+            "time_this_iter_s": [
+                0.598912239074707
+            ],
+            "done": [
+                false
+            ],
+            "training_iteration": [
+                1
+            ],
+            "trial_id": [
+                "b6ffb_00015"
+            ],
+            "date": [
+                "2023-05-24_15-27-50"
+            ],
+            "timestamp": [
+                1684934870
+            ],
+            "time_total_s": [
+                0.598912239074707
+            ],
+            "pid": [
+                59075
+            ],
+            "hostname": [
+                "norhther-Latitude-7490"
+            ],
+            "node_ip": [
+                "84.88.188.31"
+            ],
+            "time_since_restore": [
+                0.598912239074707
+            ],
+            "iterations_since_restore": [
+                1
+            ]
+        },
+        {
+            "mean_f1_score": [
+                0.6986963186484372
+            ],
+            "time_this_iter_s": [
+                0.4154584407806396
+            ],
+            "done": [
+                false
+            ],
+            "training_iteration": [
+                1
+            ],
+            "trial_id": [
+                "b6ffb_00016"
+            ],
+            "date": [
+                "2023-05-24_15-27-51"
+            ],
+            "timestamp": [
+                1684934871
+            ],
+            "time_total_s": [
+                0.4154584407806396
+            ],
+            "pid": [
+                59075
+            ],
+            "hostname": [
+                "norhther-Latitude-7490"
+            ],
+            "node_ip": [
+                "84.88.188.31"
+            ],
+            "time_since_restore": [
+                0.4154584407806396
+            ],
+            "iterations_since_restore": [
+                1
+            ]
+        },
+        {
+            "mean_f1_score": [
+                0.7186435386710469
+            ],
+            "time_this_iter_s": [
+                0.6210391521453857
+            ],
+            "done": [
+                false
+            ],
+            "training_iteration": [
+                1
+            ],
+            "trial_id": [
+                "b6ffb_00017"
+            ],
+            "date": [
+                "2023-05-24_15-27-51"
+            ],
+            "timestamp": [
+                1684934871
+            ],
+            "time_total_s": [
+                0.6210391521453857
+            ],
+            "pid": [
+                59075
+            ],
+            "hostname": [
+                "norhther-Latitude-7490"
+            ],
+            "node_ip": [
+                "84.88.188.31"
+            ],
+            "time_since_restore": [
+                0.6210391521453857
+            ],
+            "iterations_since_restore": [
+                1
+            ]
+        },
+        {
+            "mean_f1_score": [
+                0.7287345261062775
+            ],
+            "time_this_iter_s": [
+                63.95780515670776
+            ],
+            "done": [
+                false
+            ],
+            "training_iteration": [
+                1
+            ],
+            "trial_id": [
+                "b6ffb_00018"
+            ],
+            "date": [
+                "2023-05-24_15-28-55"
+            ],
+            "timestamp": [
+                1684934935
+            ],
+            "time_total_s": [
+                63.95780515670776
+            ],
+            "pid": [
+                59075
+            ],
+            "hostname": [
+                "norhther-Latitude-7490"
+            ],
+            "node_ip": [
+                "84.88.188.31"
+            ],
+            "time_since_restore": [
+                63.95780515670776
+            ],
+            "iterations_since_restore": [
+                1
+            ]
+        },
+        {
+            "mean_f1_score": [
+                0.7249108256311387
+            ],
+            "time_this_iter_s": [
+                0.5973169803619385
+            ],
+            "done": [
+                false
+            ],
+            "training_iteration": [
+                1
+            ],
+            "trial_id": [
+                "b6ffb_00019"
+            ],
+            "date": [
+                "2023-05-24_15-28-56"
+            ],
+            "timestamp": [
+                1684934936
+            ],
+            "time_total_s": [
+                0.5973169803619385
+            ],
+            "pid": [
+                59075
+            ],
+            "hostname": [
+                "norhther-Latitude-7490"
+            ],
+            "node_ip": [
+                "84.88.188.31"
+            ],
+            "time_since_restore": [
+                0.5973169803619385
+            ],
+            "iterations_since_restore": [
+                1
+            ]
+        }
+    ],
+    "model": "SVC(C=124.06998422376643, gamma=0.0008882238299844194, kernel='linear')",
+    "num_samples": 20
+}
